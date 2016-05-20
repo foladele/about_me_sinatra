@@ -1,0 +1,64 @@
+.Info
+{
+	font-size: 70px 
+
+}
+.Info
+{
+	text-align: center;
+}
+
+body 
+ {
+  background-image: url("/images/sewing.jpg");
+  font-size: 30px;
+  color: maroon;  
+
+}
+
+.image {
+  background-image: url("/images/image.jpg");
+  background-size: auto 100%;
+ /*  border: 2px dashed #9799a7; */
+  height: 240px;
+  width: 200px;
+  background-repeat: no-repeat;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 63%;
+}
+
+.name
+{
+	font-size: 50px;
+}
+
+.more
+{
+	font-size: 50px;
+}
+
+footer
+{
+	float: right
+}
